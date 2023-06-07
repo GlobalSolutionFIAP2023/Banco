@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="317C12F5-C008-FB95-7FE4-D1E494F7FFE9" name="T_AGV_CLIENTE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>D7C7525B-7537-983C-4750-5A0F16215ADC</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="854B030C-86FB-C51A-84B4-F425B4D820BD">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do cliente, que será gerado no cadastro do cliente. Esse atributo é chave primária]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o ID do cliente, que será gerado no cadastro do cliente. Esse atributo é chave primária]]></commentInRDBMS>
+<generatorID>A542A290-894D-A21A-B9D7-1F68F8916F4F</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TELEFONE" id="E2DA85C7-C9A4-A6EE-857F-7D195EC75CA5">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do telefone, que será gerado no cadastro do cliente. Esse atributo é chave primária]]></comment>
+<generatorID>F30DCD1F-A963-E6A0-D44D-46926FE67BD4</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A098476F-8BF6-352C-E081-CF81E7B57766" referredColumn="DA768E81-47AF-23ED-5EF8-C46AC5E02F2F"/>
+</associations>
+</Column>
+<Column name="ID_SISTEMA_PLANTIO" id="C37BFCA9-6AEC-2DFA-08C9-31B0BE45C97E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do sistema de plantio, que será gerado no cadastro do sistema de plantio. Esse atributo é chave primária.]]></comment>
+<generatorID>77C213A2-066F-7745-CB1C-185F5F013F0D</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3226C77-4621-E64C-1F82-F2FC36F649DD" referredColumn="815824E7-4E37-796C-EF14-5FA52A9D19BD"/>
+</associations>
+</Column>
+<Column name="NM_CLIENTE" id="8767FB7A-C717-5BB5-84EC-E53B5529849E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o nome do cliente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o nome do cliente. Este atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>D37B8564-2663-3EC4-7A61-C68C240B6B63</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE_CLIENTE" id="3432CC7C-BB01-DF67-CC3E-1D80CDEA1EA1">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Este atributo recebe a idade do usuário. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo recebe a idade do cliente. Este atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>8FFC6EA5-BCD4-C7D4-354A-F3B63DB10F66</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO_CLIENTE" id="F72A0A14-2362-6B18-96E0-DC5519B77F23">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Este atributo recebe o gênero do usuário. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo recebe o gênero do cliente. Este atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>42F4EB9C-CB3F-E091-CFC5-AFC4C3F07F3F</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="E29232B7-15DC-A5F4-8ACC-37ECAF91C0CC">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela foi iniciada. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela foi iniciada. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>0F23B578-37CC-9E01-798E-254938E6B43A</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="37FEE678-C057-A912-CD35-9E57EB08BFA5">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<generatorID>2F017BCD-4CEE-EBD0-9C03-F8FAA487F1E2</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="7AE1D7B3-6A14-608D-F02F-3F011F82C410">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>9828B558-1D3C-9E7A-1865-7C9F9BCE93C7</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF81373D-45E4-DDEA-B0B3-151A9049899D" name="T_AGV_USUARIO_PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>E1B75E30-ED33-ACC4-FA14-4410B1871783</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="854B030C-86FB-C51A-84B4-F425B4D820BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="144433A7-81F3-1F73-08B9-98180AA3DF1F" name="FK_SISTEMA_PLANTIO_CLIENTE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>8834D3DA-E189-8963-5418-61F28EA0086F</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C37BFCA9-6AEC-2DFA-08C9-31B0BE45C97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F109CD2-8F05-E6F4-A22A-87709FFD5322" name="FK_TELEFONE_CLIENTE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>34E6C962-B205-8734-58C4-507096D3C521</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DA85C7-C9A4-A6EE-857F-7D195EC75CA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

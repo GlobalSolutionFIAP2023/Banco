@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55F5217A-4C9A-8F14-2BD9-AE105461D9F8" name="T_AGV_ESTACAO_ANO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 15:16:32 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTACAO_ANO" id="B3D48CDB-65D4-C9A1-B844-81AA59DAF22C">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:05:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá informações sobre o id da estação do ano.
+Será chave primária]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá informações sobre o id da estação do ano.
+Será chave primária]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTACAO_ANO" id="76950856-4096-49B0-75F1-89BD862C1973">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 15:54:11 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome da estação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome da estação.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<listOfValues>
+<valueDef value="INVERNO" description=""/>
+<valueDef value="OUTONO" description=""/>
+<valueDef value="PRIMAVERA" description=""/>
+<valueDef value="VERAO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLIMA_ESTACAO_ANO" id="6547FF01-5AEC-FB34-3D69-156222B5BAAB">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 15:59:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o clima da estação do ano. Esse atributo é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o clima da estação do ano. Esse atributo é obrigatório]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMP_MEDIA" id="8FE816DE-4512-ED86-A3DB-02E5CA244BAE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 16:53:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o valor da temperatura média da estação do ano. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o valor da temperatura média da estação do ano. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIPITACAO_MEDIA_ESTACAO_ANO" id="0D9450D8-0914-115B-B634-79F8C780759F">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 17:24:54 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a precipitação média da estação do ano. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a precipitação média da estação do ano. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UMIDADE_MEDIA_ESTACAO_ANO" id="5AF708EE-2946-8713-58E1-A7B045A0FB95">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 17:27:35 UTC</createdTime>
+<comment><![CDATA[Este atributo recebe a umidade média da estação do ano. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo recebe a umidade média da estação do ano. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INC_SOLAR_MEDIA_ESTACAO_ANO" id="BECE0BB8-D976-F947-B940-BD64A1F810AB">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 18:07:32 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a incidência solar media da estação do ano. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a incidência solar media da estação do ano. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="1CDE878B-11AE-960C-D1E8-1C486DFEACCE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:30:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="919E27B8-A708-D517-5622-ABBE64380B6D">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:30:31 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="6C1E3779-6D71-B47C-AD64-D197DB3AFBFB">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 18:13:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8E4D958-06AA-E6D4-2363-CFFF45014C91" name="T_AGV_ESTACAO_ANO PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 15:55:13 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3D48CDB-65D4-C9A1-B844-81AA59DAF22C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

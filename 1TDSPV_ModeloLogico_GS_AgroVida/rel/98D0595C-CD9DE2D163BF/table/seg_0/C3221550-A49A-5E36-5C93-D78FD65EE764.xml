@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3221550-A49A-5E36-5C93-D78FD65EE764" name="T_AGV_TP_INSETICIDA_NATURAL">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>14170BD9-9DDC-C4CA-C55A-DA9295D64CD5</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INSETICIDA_NATURAL" id="A8CAF177-C086-2860-9D7F-B1F986F9FEC3">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>16E0BF15-55FD-B70A-0031-6CE1EAD9D1C5</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_INSETICIDA_NATURAL" id="8248627A-7321-E20F-BECA-0DD2BE1FD22B">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do inseticida natural. Esse atributo é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do inseticida natural. Esse atributo é obrigatório]]></commentInRDBMS>
+<generatorID>A058989D-20C5-A4E4-1C9F-59F02A855F58</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CMPNT_USADO_INSETICIDA_NATURAL" id="71DB2C11-213A-215B-D2CF-BD4FE5540F3E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebera o nome do componente usado no inseticida natural. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebera o nome do componente usado no inseticida natural. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>E3FCACA5-BD4D-2DFB-47EE-F12F0891C6CB</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MD_PREPARO_INSETICIDA_NATURAL" id="712CC0F3-2AF1-1DDF-D06F-0171D0104FBB">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o modo de preparo do inseticida natural. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o modo de preparo do inseticida natural. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>4895FC1F-3D29-3F57-EAD4-CAFCF19ED5EA</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="617123AD-584A-E176-0393-625FD6C68093">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>1DE6BE38-100D-1714-EF3C-8F26B89BE395</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="0AD151AA-03E0-3B38-C476-A0B44396392C">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<generatorID>DBACD432-4C2B-AF38-BAEB-63C11BB18154</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="AE624C39-8EB0-2114-DAFA-C44186006CD4">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<generatorID>A1F801AC-9BEE-C5C9-FF5E-51942A2091AC</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B64D8E7-22CF-E2F4-502D-3C3DEA8D7177" name="T_AGV_TP1_INSETICIDA_NATURAL_PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>71839709-3645-FB16-602E-EEB62B3AB18E</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8CAF177-C086-2860-9D7F-B1F986F9FEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

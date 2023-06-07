@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBA191FA-128A-F739-8013-C6FB8091015F" containerWithKeyObject="8E43ECDA-DBC6-4212-50F3-E116E1CDA2C5" localFKIndex="B805526B-7DE9-927E-07D8-EDA783F0CC8A" name="FK_TPSOLO_TPSOLOTECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:27 UTC</createdTime>
+<generatorID>1C46D2A6-2A75-76E0-51F0-8A4C7A08CCC0</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<referredTableLongName>T_AGV_TP_SOLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CF0742C-D7D1-D072-A901-55B61819583D</referredTableID>
+<keyObject>CF4E6BD7-11A0-2136-0CCA-DA27731610CD</keyObject>
+<referredKeyID>CF4E6BD7-11A0-2136-0CCA-DA27731610CD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_SOLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

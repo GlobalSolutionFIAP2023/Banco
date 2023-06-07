@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="424516A6-686D-0ADC-0609-B489A3C1F08B" name="T_AGV_TECNICA_SISTEMA_PLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>776E6FBB-73F1-174A-40CD-12327FFA405D</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TECNICA_SISTEMA_PLANTIO" id="E6B4D261-EBFF-63A0-AC5B-E80EA2A98AAE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo terá como conteúdo a informação do ID da tabela TECNICA_SISTEMA_PLANTIO]]></commentInRDBMS>
+<generatorID>B9BA5E37-73FD-DF44-FF06-4E45145B7799</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SISTEMA_PLANTIO" id="EC2D3B95-EEFB-1CF3-80BA-4A7BED4B7BF1">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do sistema de plantio, que será gerado no cadastro do sistema de plantio. Esse atributo é chave primária.]]></comment>
+<generatorID>CDBA9F01-C69F-76E7-C260-C75FE7F641D1</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EC909FC-93F8-7A7F-ADBF-920EE027FA36" referredColumn="815824E7-4E37-796C-EF14-5FA52A9D19BD"/>
+</associations>
+</Column>
+<Column name="ID_TECNICA_PLANTIO" id="66B21226-3DD9-5A20-E6A3-9A9C2E13B98E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>C54A9A07-A278-C3B4-E666-C4E2AFDD7869</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF549A2-851B-7A8C-D440-858D605D4B2A" referredColumn="5C1093AB-161F-B434-ACD9-AA96BB81BB89"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="B26A52F7-BBB9-1BA3-F87C-0B98853E2CA9">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-05 22:27:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="A5BD607A-A71A-A52B-6114-8D4A566CDC3E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-05 22:28:37 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="8A7776B3-060A-5672-7B87-2E723090E9AA">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-05 22:29:25 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do usuário que irá fazer alteração na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do usuário que irá fazer alteração na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67AF7EE2-43CA-3F8A-98AA-45D483A2E344" name="T_AGV_TECNICA_SISTEMA_PLANTIO_PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>E03E6DF4-E528-8F08-E6E8-F6C79A496E8B</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B4D261-EBFF-63A0-AC5B-E80EA2A98AAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22BB45F3-70AE-EB6E-730D-DBE70A1F40E0" name="FK_SIST_PLANTIO_TECSIST_PLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>C7A3C4A9-5577-1F4F-5626-2CE95BB381FC</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2D3B95-EEFB-1CF3-80BA-4A7BED4B7BF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC1FE06F-6331-82A1-6E39-2866561AEE3D" name="FK_TEC_PLANTIO_TECSIST_PLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>BB587360-1457-B521-8ECB-2C15FA5B12C9</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B21226-3DD9-5A20-E6A3-9A9C2E13B98E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

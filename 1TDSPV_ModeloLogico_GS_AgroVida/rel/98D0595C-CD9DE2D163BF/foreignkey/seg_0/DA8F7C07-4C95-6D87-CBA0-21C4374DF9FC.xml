@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA8F7C07-4C95-6D87-CBA0-21C4374DF9FC" containerWithKeyObject="8E43ECDA-DBC6-4212-50F3-E116E1CDA2C5" localFKIndex="2142D554-1CEE-DA9D-8A7D-8D9B972AC15C" name="FK_TECPLANTIO_TPSOLOTECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>7F83F25F-2132-EF76-A7A7-6B19B9F37FB5</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<referredTableLongName>T_AGV_TECNICA_PLANTIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40460464-109E-ECFD-38B1-6F107EBDA550</referredTableID>
+<keyObject>0CC17757-504B-5E5A-2CD1-DA16C842634E</keyObject>
+<referredKeyID>0CC17757-504B-5E5A-2CD1-DA16C842634E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TECNICA_PLANTIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

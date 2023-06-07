@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8515412-AE5B-46E6-A977-FF9EE3A4D20C" name="T_AGV_REGIAO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 18:39:52 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_REGIAO" id="101B20EB-C1AB-749F-598E-17530A8ED55C">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 18:40:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID da região que será gerado no cadastro da região. Esse atributo é chave primária.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o ID da região que será gerado no cadastro da região. Esse atributo é chave primária.
+]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTACAO_ANO" id="20A58E70-B2B6-93D0-C268-9037D571070D">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:18:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá informações sobre o id da estação do ano.
+Será chave primária]]></comment>
+<generatorID>F15B8BA3-3A59-B187-9667-8FAF8B046B0C</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>B3D48CDB-65D4-C9A1-B844-81AA59DAF22C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLIMA_REGIAO" id="E1E23588-A8E0-5E7F-461A-B07A3C616D34">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 18:43:13 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o clima da região. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o clima da região. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_SOLO_REGIAO" id="1F053C62-19BF-5F23-F063-EF64E41977BE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 19:43:56 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o tipo do solo na região. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o tipo do solo na região. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_VEGETACAO" id="399DF04F-B928-5C44-736A-68B908B0FFF4">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:12:33 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o tipo da vegetação. Esse atributo é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o tipo da vegetação. Esse atributo é obrigatório]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="83209116-2FE0-B300-B295-0CA660C18EFC">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:13:34 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela foi iniciada. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela foi iniciada. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="3C11E5B3-260E-9387-484F-4A98576A2EA3">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:14:16 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela foi finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="ED54D4C7-4A97-BB32-9484-74E2F8E99039">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:16:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE978272-021B-4588-B411-C33D4D595F8F" name="T_AGV_REGIAO PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 18:41:31 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>101B20EB-C1AB-749F-598E-17530A8ED55C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

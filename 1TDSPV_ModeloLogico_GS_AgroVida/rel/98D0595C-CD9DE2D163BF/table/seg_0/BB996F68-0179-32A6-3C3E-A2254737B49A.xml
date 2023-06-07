@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB996F68-0179-32A6-3C3E-A2254737B49A" name="T_AGV_TP_INSETICIDA_TECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>B1D9A7BC-708E-F720-A489-C6BA6C8244CA</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TP_INSETICIDA_TECPLANTIO" id="124297D2-7697-B39A-AC1D-DBF189339B0E">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá conteúdo sobre o ID da tabela TP_SOLO_TEC_PLANTIO]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá conteúdo como o ID da tabela TP_INSETICIDA_TECPLANTIO]]></commentInRDBMS>
+<generatorID>794CB503-4CF0-4492-469F-4A63CABE3286</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TECNICA_PLANTIO" id="681472BD-5FE0-AA2B-1697-AC71637EF631">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>41A789A0-23A5-8B42-CE31-2C414FDE36D8</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65A4DA79-B3D5-79BA-F57B-10FAE2C597EC" referredColumn="5C1093AB-161F-B434-ACD9-AA96BB81BB89"/>
+</associations>
+</Column>
+<Column name="ID_INSETICIDA_NATURAL" id="F27D1B82-DA29-874E-AA12-B18CA6F0199F">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>4821BA66-AD2A-3B4C-FD9B-9BE0406AC432</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09EEA798-265B-9088-42EE-0489D3913B08" referredColumn="A8CAF177-C086-2860-9D7F-B1F986F9FEC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAE530DB-825B-A48E-3BF4-496AAA2C9C63" name="T_AGV_TP_INSETICIDA_TECPLANTIO_PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>A9867FFC-B05B-42D5-1490-671F505FA030</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="124297D2-7697-B39A-AC1D-DBF189339B0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C276F159-83C2-79FF-CF7B-CBEEEAEF02F0" name="FK_TECPLANTIO_TPINSETTECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>B332F4F9-5104-E53D-1C6B-C6F9E9E7E77F</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681472BD-5FE0-AA2B-1697-AC71637EF631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="003B6E33-4652-9B04-BB4E-E6E7C4F01EAC" name="FK_TPINSET_TPINSETTECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:27 UTC</createdTime>
+<generatorID>8737CDE9-B2C3-D8BF-CAC1-56AA0556B9EE</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F27D1B82-DA29-874E-AA12-B18CA6F0199F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIST_PLANTIO_TECSIST_PLANTIO" directorySegmentName="seg_0" id="C7A3C4A9-5577-1F4F-5626-2CE95BB381FC">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:30:56 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<sourcePk>ADFE6213-6DDC-66DD-5CC8-FF7BDBDA609E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>087289BC-7AB0-11ED-4E8B-33AA732B2CED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>776E6FBB-73F1-174A-40CD-12327FFA405D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

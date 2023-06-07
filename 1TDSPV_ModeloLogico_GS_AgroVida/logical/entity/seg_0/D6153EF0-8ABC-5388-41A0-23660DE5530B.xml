@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6153EF0-8ABC-5388-41A0-23660DE5530B" name="T_AGV_FRUTA_TECNICA">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:44:57 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FRUTA_TECNICA" id="DAF46E65-16E3-2C76-E41D-5DEC2D8D319A">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:45:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo terá como conteúdo, informações do ID da tabela FRUTA_TECNICA]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo terá como conteúdo, informações do ID da tabela FRUTA_TECNICA]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FRUTA" id="CCC78A75-574B-8298-0059-E919B5FDDD85">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:48:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID da fruta, que será gerado no cadastro da fruta. Esse atributo é chave primária]]></comment>
+<generatorID>22B49E54-82E6-3AF2-7CFD-A53503F0CDB0</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>7FF176C5-F257-AE76-4CB8-2067B75ABCA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TECNICA_PLANTIO" id="758D07C1-518A-1332-84EB-2DDFCD3BEC01">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:48:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>EAB96EF6-D582-2331-F9A1-EAA200F988B5</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>B7F9C51F-D24A-9099-1F32-7124B320EBC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05D71199-464A-F85F-AAFC-4B04DA8500CE" name="T_AGV_FRUTA_TECNICA PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:45:21 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAF46E65-16E3-2C76-E41D-5DEC2D8D319A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

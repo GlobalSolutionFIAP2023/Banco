@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="359542F6-FB75-4114-6507-81FC2D6BB340" name="T_AGV_TECNICA_PLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:46:48 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TECNICA_PLANTIO" id="B7F9C51F-D24A-9099-1F32-7124B320EBC7">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:47:36 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QNTD_AGUA_USADA" id="1D09186B-109B-0AF0-2329-17BC7C1A1D62">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:54:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a quantidade de água usada na técnica de plantio. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a quantidade de água usada na técnica de plantio. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMPO_COLHEITA_TECNICA_PLANTIO" id="D39FFFDB-63BE-7793-5193-7FC4044557D3">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 01:21:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o tempo de colheita de técnica do plantio. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o tempo de colheita de técnica do plantio. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="C1F9AE26-3AD5-ADD0-AF4E-2F83F81A3FDA">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 01:29:35 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="77DC2AC5-80FD-54E0-B96F-ED5D169AB050">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 01:35:07 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data que a tabela será finalizada. Esse atributo não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A958648D-E7F2-7BC1-1A8C-502D74E6ABE9" name="T_AGV_TECNICA_PLANTIO PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-03 00:50:29 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7F9C51F-D24A-9099-1F32-7124B320EBC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

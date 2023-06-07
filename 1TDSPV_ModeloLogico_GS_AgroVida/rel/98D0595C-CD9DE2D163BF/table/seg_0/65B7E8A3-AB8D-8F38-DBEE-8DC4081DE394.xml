@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65B7E8A3-AB8D-8F38-DBEE-8DC4081DE394" name="T_AGV_TPADUBO_SISTEMAPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>FD09BD3D-F410-C369-1D7E-96A9D5CAA489</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TPADUBO_SISTEMAPLANTIO" id="C9BD52B9-644E-D4E9-9877-353E21D884C2">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo receberá conteúdo sobre o ID da tabela TPADUBO_SISTEMAPLANTIO]]></commentInRDBMS>
+<generatorID>C78BB640-0B29-0CE6-7892-399903A7E2D9</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TP_ADUBO" id="2ED570C7-89CE-29CA-F9B8-937C860D308A">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo do adubo, que será gerado no cadastro do tipo do adubo. Esse atributo é chave primária]]></comment>
+<generatorID>D03B716E-62C0-D31A-3889-B5EB399AEC4D</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40B4CF31-E8D7-2047-223D-E1DFFCA387BE" referredColumn="B6CC90DE-35C1-38E4-5E19-D1F434A1B428"/>
+</associations>
+</Column>
+<Column name="ID_TECNICA_PLANTIO" id="E961AED1-4018-70B1-8468-00D39DB82338">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>F0DCFBB6-8815-58E4-0C65-E044CCA730F7</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77807269-0989-9615-FFF5-7DC58F52D97C" referredColumn="5C1093AB-161F-B434-ACD9-AA96BB81BB89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6381B31B-C2B2-F3F6-CDCC-8CE39830738E" name="T_AGV_TPADUBO_SISTEMAPLANTIO_PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>9F67C641-0633-3B25-0FA8-40CE1CE2FC3E</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BD52B9-644E-D4E9-9877-353E21D884C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CF9D63E-0AED-101B-9EAE-2CD549718470" name="FK_TECPLANTIO_TPASUBO_SISTPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>40004DE2-0B00-C24E-A1C6-165B36743847</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E961AED1-4018-70B1-8468-00D39DB82338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA7DB5C9-E8CD-C25D-B16E-1FABEB59CB2E" name="FK_TPADUBO_TPADUBO_SISTEMAPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:27 UTC</createdTime>
+<generatorID>FDD6EBF3-6272-95CE-0833-85FE36DD9FE8</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ED570C7-89CE-29CA-F9B8-937C860D308A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

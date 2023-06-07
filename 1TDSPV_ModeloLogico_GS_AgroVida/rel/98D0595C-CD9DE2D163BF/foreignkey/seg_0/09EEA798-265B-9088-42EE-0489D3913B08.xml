@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09EEA798-265B-9088-42EE-0489D3913B08" containerWithKeyObject="BB996F68-0179-32A6-3C3E-A2254737B49A" localFKIndex="003B6E33-4652-9B04-BB4E-E6E7C4F01EAC" name="FK_TPINSET_TPINSETTECPLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:27 UTC</createdTime>
+<generatorID>8737CDE9-B2C3-D8BF-CAC1-56AA0556B9EE</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<referredTableLongName>T_AGV_TP_INSETICIDA_NATURAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3221550-A49A-5E36-5C93-D78FD65EE764</referredTableID>
+<keyObject>0B64D8E7-22CF-E2F4-502D-3C3DEA8D7177</keyObject>
+<referredKeyID>0B64D8E7-22CF-E2F4-502D-3C3DEA8D7177</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_INSETICIDA_NATURAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

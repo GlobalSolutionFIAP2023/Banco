@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="1TDSPV_ModeloLogico_GS_AgroVida" id="07B79BDD-92B1-ABAA-9AEF-81F5B6A9F7E0" version="3.5">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-30 14:27:10 UTC</createdTime>
+<ownerDesignName>vitor_globalsolution</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>07B79BDD-92B1-ABAA-9AEF-81F5B6A9F7E0</designId>
+</OSDM_Design>

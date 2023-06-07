@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AD3BA2B-3F1B-16D3-7699-14A5F51E9BC4" containerWithKeyObject="A9D56F4D-413F-E5C5-0BF6-5A50B08935D3" localFKIndex="152AA0CD-74E5-4D85-62FB-A9CEA65EBA8A" name="FK_REGIAO_SISTEMA_PLANTIO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>D73CCEC5-D11A-8649-6645-A44C7B6F9E44</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<referredTableLongName>T_AGV_REGIAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A01DFBC8-C11C-B741-7377-0899E2278BF0</referredTableID>
+<keyObject>8948CE95-9934-A5EE-7C3D-329E3AA38740</keyObject>
+<referredKeyID>8948CE95-9934-A5EE-7C3D-329E3AA38740</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REGIAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

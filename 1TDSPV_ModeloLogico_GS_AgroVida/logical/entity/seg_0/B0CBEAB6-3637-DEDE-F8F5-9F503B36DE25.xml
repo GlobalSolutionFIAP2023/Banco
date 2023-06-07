@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0CBEAB6-3637-DEDE-F8F5-9F503B36DE25" name="T_AGV_TP_ADUBO">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 19:52:51 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TP_ADUBO" id="D02EDD20-00AF-021B-AEC7-7B71A73F2DE0">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 19:53:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo do adubo, que será gerado no cadastro do tipo do adubo. Esse atributo é chave primária]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o ID do tipo do adubo, que será gerado no cadastro do tipo do adubo. Esse atributo é chave primária]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TP_ADUBO" id="C9AF05F7-CED8-3784-53EF-B7CB27D81467">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 00:10:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do tipo do adubo. Esse atributo é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do tipo do adubo. Esse atributo é obrigatório]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="A35EC418-B082-E64D-83AB-522012C6A46F">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 00:16:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de inicio da tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="CEE85EBD-853E-6B07-767E-D1EF7AD61BDA">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 00:17:53 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data que a  tabela foi finalizada. Esse atributo não é obrigatório.]]></comment>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="BCBE8840-1B59-6504-A27B-E4BD89F930AE">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-01 00:18:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do usuário que realizará alterações na tabela. Esse atributo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7804525B-D4F8-8E64-5DF1-21E390EC55F2" name="T_AGV_TP_ADUBO PK">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-31 19:53:27 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D02EDD20-00AF-021B-AEC7-7B71A73F2DE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1D9A7BC-708E-F720-A489-C6BA6C8244CA" name="T_AGV_TP_INSETICIDA_TECPLANTIO">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:58:14 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TP_INSETICIDA_TECPLANTIO" id="794CB503-4CF0-4492-469F-4A63CABE3286">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:59:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá conteúdo sobre o ID da tabela TP_SOLO_TEC_PLANTIO]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá conteúdo como o ID da tabela TP_INSETICIDA_TECPLANTIO]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TECNICA_PLANTIO" id="41A789A0-23A5-8B42-CE31-2C414FDE36D8">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 22:01:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>B332F4F9-5104-E53D-1C6B-C6F9E9E7E77F</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>B7F9C51F-D24A-9099-1F32-7124B320EBC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_INSETICIDA_NATURAL" id="4821BA66-AD2A-3B4C-FD9B-9BE0406AC432">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 22:02:39 UTC</createdTime>
+<generatorID>8737CDE9-B2C3-D8BF-CAC1-56AA0556B9EE</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>16E0BF15-55FD-B70A-0031-6CE1EAD9D1C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9867FFC-B05B-42D5-1490-671F505FA030" name="T_AGV_TP_INSETICIDA_TECPLANTIO PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:59:33 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>794CB503-4CF0-4492-469F-4A63CABE3286</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

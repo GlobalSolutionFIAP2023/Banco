@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CD647A-61B0-D3D8-0CD4-0F94771CF6CD" containerWithKeyObject="D23E0155-6E32-B5FA-69C8-BDD34B1B20CB" localFKIndex="7D51A75D-CE90-7B05-3F55-F9D796175F41" name="FK_FRUTA_FRUTATECNICA">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-06-04 21:57:26 UTC</createdTime>
+<generatorID>22B49E54-82E6-3AF2-7CFD-A53503F0CDB0</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<referredTableLongName>T_AGV_FRUTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2630F657-E8E8-554A-052F-BF0305DCF65D</referredTableID>
+<keyObject>1B1B4A30-A728-9361-B9B7-FEB6A3F4A7F9</keyObject>
+<referredKeyID>1B1B4A30-A728-9361-B9B7-FEB6A3F4A7F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FRUTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

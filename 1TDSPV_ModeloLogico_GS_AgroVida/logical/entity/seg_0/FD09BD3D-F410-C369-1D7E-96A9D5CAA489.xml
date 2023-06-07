@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD09BD3D-F410-C369-1D7E-96A9D5CAA489" name="T_AGV_TPADUBO_SISTEMAPLANTIO">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:53:56 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TPADUBO_SISTEMAPLANTIO" id="C78BB640-0B29-0CE6-7892-399903A7E2D9">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:54:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo receberá conteúdo sobre o ID da tabela TPADUBO_SISTEMAPLANTIO]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TP_ADUBO" id="D03B716E-62C0-D31A-3889-B5EB399AEC4D">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:55:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo do adubo, que será gerado no cadastro do tipo do adubo. Esse atributo é chave primária]]></comment>
+<generatorID>FDD6EBF3-6272-95CE-0833-85FE36DD9FE8</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>D02EDD20-00AF-021B-AEC7-7B71A73F2DE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TECNICA_PLANTIO" id="F0DCFBB6-8815-58E4-0C65-E044CCA730F7">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:56:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>40004DE2-0B00-C24E-A1C6-165B36743847</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>B7F9C51F-D24A-9099-1F32-7124B320EBC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F67C641-0633-3B25-0FA8-40CE1CE2FC3E" name="T_AGV_TPADUBO_SISTEMAPLANTIO PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:54:37 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C78BB640-0B29-0CE6-7892-399903A7E2D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

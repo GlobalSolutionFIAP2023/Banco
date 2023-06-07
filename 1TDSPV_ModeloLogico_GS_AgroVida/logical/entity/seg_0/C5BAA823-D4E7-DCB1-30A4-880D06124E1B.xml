@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5BAA823-D4E7-DCB1-30A4-880D06124E1B" name="T_AGV_TP_SOLO_TEC_PLANTIO">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:49:04 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TP_SOLO_TEC_PLANTIO" id="2617B9E0-3644-0BA4-7D22-A6DFACFC3CAD">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:50:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá conteúdo sobre o ID da tabela TP_SOLO_TEC_PLANTIO]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá conteúdo sobre o ID da tabela TP_SOLO_TEC_PLANTIO]]></commentInRDBMS>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TECNICA_PLANTIO" id="DB65B9C5-D012-CBDF-24B8-3D6E1759F314">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:51:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo da técnica de plantio, que será gerado no cadastro da técnica de planio. Esse atributo é chave primária.]]></comment>
+<generatorID>7F83F25F-2132-EF76-A7A7-6B19B9F37FB5</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>B7F9C51F-D24A-9099-1F32-7124B320EBC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPO_SOLO" id="DF227BAA-382C-06E5-A78B-2C85E25EBA40">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:52:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o ID do tipo so solo, que será gerado no cadastro do tipo do solo. Esse atributo é chave primária]]></comment>
+<generatorID>1C46D2A6-2A75-76E0-51F0-8A4C7A08CCC0</generatorID>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<referedAttribute>92804817-A88B-CDA8-7F8B-C5F8858F2314</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFF12CE2-8A94-8EDE-197E-DEC406D25E5D" name="T_AGV_TP_SOLO_TEC_PLANTIO PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:51:06 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2617B9E0-3644-0BA4-7D22-A6DFACFC3CAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

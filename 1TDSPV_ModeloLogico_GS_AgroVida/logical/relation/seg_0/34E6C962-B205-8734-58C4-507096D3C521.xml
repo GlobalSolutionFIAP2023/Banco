@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TELEFONE_CLIENTE" directorySegmentName="seg_0" id="34E6C962-B205-8734-58C4-507096D3C521">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:35:29 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<sourcePk>2408A691-68C3-10A3-C75B-F51103A8926E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD88CD92-FE89-5F13-66AD-E76830F04CCC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7C7525B-7537-983C-4750-5A0F16215ADC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

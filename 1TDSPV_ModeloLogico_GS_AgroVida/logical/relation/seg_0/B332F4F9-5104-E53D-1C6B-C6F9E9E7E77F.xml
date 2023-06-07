@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TECPLANTIO_TPINSETTECPLANTIO" directorySegmentName="seg_0" id="B332F4F9-5104-E53D-1C6B-C6F9E9E7E77F">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 22:01:47 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<sourcePk>A958648D-E7F2-7BC1-1A8C-502D74E6ABE9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>359542F6-FB75-4114-6507-81FC2D6BB340</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1D9A7BC-708E-F720-A489-C6BA6C8244CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

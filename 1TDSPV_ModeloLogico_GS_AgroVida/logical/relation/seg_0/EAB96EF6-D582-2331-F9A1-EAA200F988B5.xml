@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TECPLANTIO_FRUTATEC" directorySegmentName="seg_0" id="EAB96EF6-D582-2331-F9A1-EAA200F988B5">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:48:19 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<sourcePk>A958648D-E7F2-7BC1-1A8C-502D74E6ABE9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>359542F6-FB75-4114-6507-81FC2D6BB340</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6153EF0-8ABC-5388-41A0-23660DE5530B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

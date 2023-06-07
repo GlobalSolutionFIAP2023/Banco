@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ESTACAO_ANO_REGIAO" directorySegmentName="seg_0" id="F15B8BA3-3A59-B187-9667-8FAF8B046B0C">
+<createdBy>eduar</createdBy>
+<createdTime>2023-06-03 21:18:59 UTC</createdTime>
+<ownerDesignName>1TDSPV_ModeloLogico_GS_AgroVida</ownerDesignName>
+<engineerTo>
+<item key="98D0595C-CA14-DE15-29E3-CD9DE2D163BF" value="true"/>
+</engineerTo>
+<sourcePk>A8E4D958-06AA-E6D4-2363-CFFF45014C91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>55F5217A-4C9A-8F14-2BD9-AE105461D9F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D8515412-AE5B-46E6-A977-FF9EE3A4D20C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

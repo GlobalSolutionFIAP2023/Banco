@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B1DA8F71-557B-E0BE-8FD5-D90E663663AC" mainViewID="8DC43CFF-71CD-5F4D-AE1E-D75DBAF13CBB">
+<createdBy>pecas.cup</createdBy>
+<createdTime>2023-05-30 14:27:10 UTC</createdTime>
+<ownerDesignName>vitor_globalsolution</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
